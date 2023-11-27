@@ -18,7 +18,7 @@ public class OpenPageStep {
 	
 	@When("^user choose the respond to the survey$")
 	public void user_choose_the_respond_to_the_survey() {
-		survey.ChooseRespond("Good");
+		survey.ChooseRespond();
 	}
 	
 	@Then("^user validate page respond$")

@@ -1,7 +1,7 @@
 package steps;
 
-import org.junit.Assert;
 
+import org.junit.Assert;
 
 import net.serenitybdd.annotations.Step;
 import pages.QaTestPage;
@@ -17,8 +17,8 @@ public class MonkeySurveyStep {
 	}
 
 	@Step("Choose your respond")
-	public void ChooseRespond(String respond) {
-		QA.getRespond(respond);
+	public void ChooseRespond() {
+		QA.getRespond();
 		QA.clickNext();
 	}
 
