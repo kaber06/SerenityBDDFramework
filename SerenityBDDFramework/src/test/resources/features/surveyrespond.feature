@@ -23,7 +23,7 @@ Feature: Survey Respond
   
   Scenario: User answer the survey
    Given user navigate to the website
-   When user choose the respond to the survey
+   When user choose "Good" as respond to the survey
    Then user validate page respond
 
   

@@ -16,9 +16,9 @@ public class OpenPageStep {
 		survey.Navigate();
 	}
 	
-	@When("^user choose the respond to the survey$")
-	public void user_choose_the_respond_to_the_survey() {
-		survey.ChooseRespond();
+	@When("^user choose \"(.*)\" as respond to the survey$")
+	public void user_choose_Respond_as_respond_to_the_survey(String respond) {
+		survey.ChooseRespond(respond);
 	}
 	
 	@Then("^user validate page respond$")

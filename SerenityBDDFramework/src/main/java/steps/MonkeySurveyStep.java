@@ -17,8 +17,8 @@ public class MonkeySurveyStep {
 	}
 
 	@Step("Choose your respond")
-	public void ChooseRespond() {
-		QA.getRespond();
+	public void ChooseRespond(String respond) {
+		QA.getRespond(respond);
 		QA.clickNext();
 	}
 
